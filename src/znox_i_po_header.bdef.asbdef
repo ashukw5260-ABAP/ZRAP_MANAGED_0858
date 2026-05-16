@@ -1,5 +1,5 @@
 managed implementation in class ZBP_NOX_I_PO_HEADER unique;
-strict ( 2 );
+//strict ( 2 );
 with draft;
 
 // Root entity: Purchase Order Header
@@ -9,7 +9,6 @@ define behavior for ZNOX_I_PO_HEADER alias Header
   lock master total etag LastChangedAt
   // authorization master ( global )
   etag master LastChangedAt
-  early numbering
 {
   create;
   update;

@@ -1,5 +1,5 @@
 @AbapCatalog.viewEnhancementCategory: [#NONE]
-@AccessControl.authorizationCheck: #CHECK
+@AccessControl.authorizationCheck:#CHECK
 @EndUserText.label: 'PO Header - Interface Root View'
 @Metadata.ignorePropagatedAnnotations: true
 @ObjectModel.usageType: {
@@ -14,7 +14,6 @@ define root view entity ZNOX_I_PO_HEADER
   key po_id                 as PoId,
       company_code          as CompanyCode,
       supplier              as Supplier,
-      @Semantics.currencyCode: true
       currency              as Currency,
       status                as Status,
       @Semantics.user.createdBy: true
@@ -26,7 +25,7 @@ define root view entity ZNOX_I_PO_HEADER
       @Semantics.systemDateTime.lastChangedAt: true
       last_changed_at       as LastChangedAt,
       @Semantics.systemDateTime.localInstanceLastChangedAt: true
-      local_last_changed_at as LocalLastChangedAt,
+      local_last_changed_at as LocalLastChangedAt,   
       /* Association */
       _Items
 }

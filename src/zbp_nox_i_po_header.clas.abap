@@ -1,5 +1,13 @@
-CLASS zbp_nox_i_po_header DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF znox_i_po_header.
+class ZBP_NOX_I_PO_HEADER definition
+  public
+  for behavior of ZNOX_I_PO_HEADER .
+
+public section.
+protected section.
+private section.
 ENDCLASS.
 
-CLASS zbp_nox_i_po_header IMPLEMENTATION.
+
+
+CLASS ZBP_NOX_I_PO_HEADER IMPLEMENTATION.
 ENDCLASS.

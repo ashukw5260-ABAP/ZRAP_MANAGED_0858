@@ -17,11 +17,9 @@ define view entity ZNOX_I_PO_ITEM
       material                                  as Material,
       @Semantics.quantity.unitOfMeasure: 'Unit'
       quantity                                  as Quantity,
-      @Semantics.unitOfMeasure: true
       unit                                      as Unit,
       @Semantics.amount.currencyCode: 'Currency'
       net_price                                 as NetPrice,
-      @Semantics.currencyCode: true
       currency                                  as Currency,
       @Semantics.systemDateTime.localInstanceLastChangedAt: true
       local_last_changed_at                     as LocalLastChangedAt,
