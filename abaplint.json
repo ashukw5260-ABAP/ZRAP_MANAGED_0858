@@ -1,0 +1,10 @@
+{
+  "global": {
+    "files": "/src/**/*.*"
+  },
+  "syntax": {
+    "version": "v754",
+    "errorNamespace": "^(ZNOX_|ZBP_NOX_)"
+  }
+}
+
